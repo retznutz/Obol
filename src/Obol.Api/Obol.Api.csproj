@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Obol.Api</RootNamespace>
+
+    <!-- `dotnet run` starts the Nuxt dev server and sends the browser to it. -->
+    <SpaRoot>..\obol.web\</SpaRoot>
+    <SpaProxyLaunchCommand>npm run dev</SpaProxyLaunchCommand>
+    <SpaProxyServerUrl>http://localhost:3000</SpaProxyServerUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SpaProxy" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="$(SpaRoot)**" />
+    <None Remove="$(SpaRoot)**" />
+  </ItemGroup>
+
+  <Target Name="NpmInstall" BeforeTargets="Build" Condition="!Exists('$(SpaRoot)node_modules')">
+    <Message Importance="high" Text="Restoring Nuxt dependencies with npm. This may take a few minutes..." />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+  </Target>
+
+  <!-- Publish: generate the static Nuxt site into wwwroot and ship the games next to the app. -->
+  <Target Name="PublishNuxt" AfterTargets="ComputeFilesToPublish">
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm ci" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run generate" />
+    <ItemGroup>
+      <NuxtFiles Include="$(SpaRoot).output\public\**" />
+      <GameFiles Include="..\..\games\**" Exclude="..\..\games\**\.DS_Store" />
+      <ResolvedFileToPublish Include="@(NuxtFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>wwwroot\%(RecursiveDir)%(FileName)%(Extension)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      </ResolvedFileToPublish>
+      <ResolvedFileToPublish Include="@(GameFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>games\%(RecursiveDir)%(FileName)%(Extension)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+
+</Project>
