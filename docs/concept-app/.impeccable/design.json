@@ -1,0 +1,572 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T22:01:15Z",
+  "title": "Design System: Obol",
+  "extensions": {
+    "colorMeta": {
+      "struck-oxblood": {
+        "role": "primary",
+        "displayName": "Struck Oxblood",
+        "canonical": "oklch(44.1% 0.156 26.5)",
+        "tonalRamp": [
+          "#1f0001",
+          "#490809",
+          "#73211e",
+          "#a03b35",
+          "#cf564e",
+          "#ed8278",
+          "#feb3ab",
+          "#fee9e6"
+        ]
+      },
+      "bone-on-oxblood": {
+        "role": "primary",
+        "displayName": "Bone on Oxblood",
+        "canonical": "oklch(96.8% 0.020 74.7)",
+        "tonalRamp": [
+          "#0e0b07",
+          "#29241e",
+          "#474139",
+          "#676056",
+          "#8a8175",
+          "#aca499",
+          "#cfc8bf",
+          "#f3ede6"
+        ]
+      },
+      "sunrise-orange": {
+        "role": "secondary",
+        "displayName": "Sunrise Orange",
+        "canonical": "oklch(69.5% 0.196 42.1)",
+        "tonalRamp": [
+          "#1a0400",
+          "#421401",
+          "#712700",
+          "#a03d0b",
+          "#d75100",
+          "#fa7b47",
+          "#fdb69a",
+          "#ffe9e1"
+        ],
+        "lightTheme": "#961e1e"
+      },
+      "ash-on-orange": {
+        "role": "secondary",
+        "displayName": "Ash on Orange",
+        "canonical": "oklch(16.2% 0.011 29.2)",
+        "tonalRamp": [
+          "#0d0a0a",
+          "#282423",
+          "#46403f",
+          "#665f5e",
+          "#89807f",
+          "#aba3a2",
+          "#cec7c6",
+          "#f3edec"
+        ],
+        "lightTheme": "#fdf3e6"
+      },
+      "gilt-gold": {
+        "role": "secondary",
+        "displayName": "Gilt Gold",
+        "canonical": "oklch(79.2% 0.167 70.1)",
+        "tonalRamp": [
+          "#140800",
+          "#362002",
+          "#5d3902",
+          "#85550f",
+          "#b37208",
+          "#dd9329",
+          "#fcbb6d",
+          "#feebd6"
+        ],
+        "lightTheme": "#961e1e"
+      },
+      "sun-band-1": {
+        "role": "tertiary",
+        "displayName": "Sun Band 1",
+        "canonical": "oklch(48.9% 0.166 30.2)",
+        "tonalRamp": [
+          "#1f0000",
+          "#4b0502",
+          "#761e14",
+          "#a3382a",
+          "#d25342",
+          "#f1806e",
+          "#fdb4a7",
+          "#fee9e5"
+        ]
+      },
+      "sun-band-2": {
+        "role": "tertiary",
+        "displayName": "Sun Band 2",
+        "canonical": "oklch(59.9% 0.203 31.6)",
+        "tonalRamp": [
+          "#1e0100",
+          "#490802",
+          "#7c1203",
+          "#b0250e",
+          "#e14027",
+          "#fa7861",
+          "#feb4a5",
+          "#fee9e5"
+        ]
+      },
+      "sun-band-3": {
+        "role": "tertiary",
+        "displayName": "Sun Band 3",
+        "canonical": "oklch(69.5% 0.196 42.1)",
+        "tonalRamp": [
+          "#1a0400",
+          "#421401",
+          "#712700",
+          "#a03d0b",
+          "#d75100",
+          "#fa7b47",
+          "#fdb69a",
+          "#ffe9e1"
+        ]
+      },
+      "sun-band-4": {
+        "role": "tertiary",
+        "displayName": "Sun Band 4",
+        "canonical": "oklch(79.2% 0.167 70.1)",
+        "tonalRamp": [
+          "#140800",
+          "#362002",
+          "#5d3902",
+          "#85550f",
+          "#b37208",
+          "#dd9329",
+          "#fcbb6d",
+          "#feebd6"
+        ]
+      },
+      "sun-band-5": {
+        "role": "tertiary",
+        "displayName": "Sun Band 5",
+        "canonical": "oklch(85.2% 0.139 80.7)",
+        "tonalRamp": [
+          "#120900",
+          "#332200",
+          "#563d05",
+          "#7e5a03",
+          "#a77910",
+          "#cb9c44",
+          "#ebc27b",
+          "#feecce"
+        ]
+      },
+      "banked-ash": {
+        "role": "neutral",
+        "displayName": "Banked Ash",
+        "canonical": "oklch(16.2% 0.011 29.2)",
+        "tonalRamp": [
+          "#0d0a0a",
+          "#282423",
+          "#46403f",
+          "#665f5e",
+          "#89807f",
+          "#aba3a2",
+          "#cec7c6",
+          "#f3edec"
+        ],
+        "lightTheme": "#f6efe6"
+      },
+      "ash-panel": {
+        "role": "neutral",
+        "displayName": "Ash Panel",
+        "canonical": "oklch(20.1% 0.013 26.6)",
+        "tonalRamp": [
+          "#0e0a0a",
+          "#292423",
+          "#47403f",
+          "#685f5e",
+          "#8a7f7e",
+          "#aca2a1",
+          "#cfc7c6",
+          "#f4edec"
+        ],
+        "lightTheme": "#fffaf3"
+      },
+      "raised-ash": {
+        "role": "neutral",
+        "displayName": "Raised Ash",
+        "canonical": "oklch(24.9% 0.019 29.3)",
+        "tonalRamp": [
+          "#0f0a09",
+          "#2b2322",
+          "#493f3e",
+          "#6b5e5c",
+          "#8e7e7c",
+          "#afa19f",
+          "#d2c6c4",
+          "#f6ecea"
+        ],
+        "lightTheme": "#ffffff"
+      },
+      "faint-seam": {
+        "role": "neutral",
+        "displayName": "Faint Seam",
+        "canonical": "oklch(35.4% 0.030 31.4)",
+        "tonalRamp": [
+          "#110908",
+          "#2d2220",
+          "#4d3e3b",
+          "#6f5c58",
+          "#937c78",
+          "#b5a09b",
+          "#d7c4c1",
+          "#faeae7"
+        ],
+        "lightTheme": "#d9c7b6"
+      },
+      "die-edge": {
+        "role": "neutral",
+        "displayName": "Die Edge",
+        "canonical": "oklch(55.5% 0.043 40.4)",
+        "tonalRamp": [
+          "#130805",
+          "#30211b",
+          "#513c35",
+          "#755a51",
+          "#9a7a6f",
+          "#ba9e94",
+          "#dcc3ba",
+          "#ffe9e2"
+        ],
+        "lightTheme": "#8f776a"
+      },
+      "bone": {
+        "role": "neutral",
+        "displayName": "Bone",
+        "canonical": "oklch(94.8% 0.018 70.2)",
+        "tonalRamp": [
+          "#0e0b07",
+          "#29241f",
+          "#47413a",
+          "#676058",
+          "#8a8177",
+          "#aca49b",
+          "#cfc8c0",
+          "#f3ede7"
+        ],
+        "lightTheme": "#2a1513"
+      },
+      "worn-bone": {
+        "role": "neutral",
+        "displayName": "Worn Bone",
+        "canonical": "oklch(74.7% 0.035 57.0)",
+        "tonalRamp": [
+          "#110905",
+          "#2d231b",
+          "#4d3f35",
+          "#6f5d50",
+          "#937d6e",
+          "#b4a193",
+          "#d7c5ba",
+          "#faebe1"
+        ],
+        "lightTheme": "#6e5850"
+      },
+      "verdigris": {
+        "role": "neutral",
+        "displayName": "Verdigris",
+        "canonical": "oklch(78.3% 0.094 217.8)",
+        "tonalRamp": [
+          "#000e13",
+          "#002a34",
+          "#064a59",
+          "#166c80",
+          "#3190a7",
+          "#67b2c7",
+          "#96d5e7",
+          "#d5f5ff"
+        ],
+        "lightTheme": "#0f6a85"
+      },
+      "coral-warning": {
+        "role": "neutral",
+        "displayName": "Coral Warning",
+        "canonical": "oklch(75.8% 0.145 29.0)",
+        "tonalRamp": [
+          "#1f0000",
+          "#470d08",
+          "#70261e",
+          "#9c3f35",
+          "#ca5b4e",
+          "#e88577",
+          "#fdb4a9",
+          "#ffe9e5"
+        ],
+        "lightTheme": "#b3261e"
+      },
+      "night-scrim": {
+        "role": "neutral",
+        "displayName": "Night Scrim",
+        "canonical": "oklch(16.2% 0.011 29.2)",
+        "tonalRamp": [
+          "#0d0a0a",
+          "#282423",
+          "#46403f",
+          "#665f5e",
+          "#89807f",
+          "#aba3a2",
+          "#cec7c6",
+          "#f3edec"
+        ],
+        "lightTheme": "#2a151399"
+      }
+    },
+    "typographyMeta": {
+      "title": {
+        "displayName": "Title",
+        "purpose": "a game's name in the preview and on the launch sheet; one line, ellipsis."
+      },
+      "headline-large": {
+        "displayName": "Headline Large",
+        "purpose": "a system's short name (\"SNES\") on the tiles of the larger half of the library by game count (at or above the median count)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "a system's short name on the tiles of the smaller half. Tile size class follows game count, not the tile's shape."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "game descriptions and dialog copy; keep lines to about 62ch, and clamp descriptions to three lines."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "game titles in the list, controller hints, buttons. Sentence case."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "metadata (year, genre, players, tile game counts, \"N of M\", the Sample clip label). The floor."
+      },
+      "glyph": {
+        "displayName": "Glyph",
+        "purpose": "letters inside controller discs."
+      },
+      "key": {
+        "displayName": "Key",
+        "purpose": "letters inside key slabs."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "numerals (years, counts, play time, list position), the clock, file names. Inside a caption line, numerals keep the line's size or step up to 18px; their letter-spacing drops to 0."
+      }
+    },
+    "shadows": [
+      {
+        "name": "focus-ring",
+        "value": "0 0 0 3px #120c0b, 0 0 0 7px #fea517",
+        "purpose": "Every focused element; light theme 0 0 0 3px #f6efe6, 0 0 0 7px #961e1e. The only outer box-shadow in the system."
+      },
+      {
+        "name": "control-edge",
+        "value": "inset 0 0 0 2px #8a6b60",
+        "purpose": "Glyph discs, key slabs, secondary buttons. Dropped on accent-filled confirm glyphs."
+      },
+      {
+        "name": "label-edge",
+        "value": "inset 0 0 0 1.5px #8a6b60",
+        "purpose": "The Sample clip label and badges."
+      },
+      {
+        "name": "frame-edge",
+        "value": "inset 0 0 0 1px #8a6b60",
+        "purpose": "The preview screen and placeholder thumbnails, drawn over the picture so the frame holds its shape when the picture's ground matches the page."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one easing curve for every state change (--ease-out)."
+      },
+      {
+        "name": "focus",
+        "value": "120ms",
+        "purpose": "Ring plus 1.03 scale: about the centre on system tiles, from the left edge on game rows and buttons."
+      },
+      {
+        "name": "row-fill",
+        "value": "160ms tile / 120ms row",
+        "purpose": "Background change when a system becomes current or a game becomes selected."
+      },
+      {
+        "name": "sun-rise",
+        "value": "220ms",
+        "purpose": "The sun rising into the current system tile from just below it; the launch sheet sun rising 48px into place."
+      },
+      {
+        "name": "scroll-thumb",
+        "value": "120ms",
+        "purpose": "The list scroll thumb following the window; the list itself scrolls smoothly within a system and instantly on system change."
+      },
+      {
+        "name": "video-dwell",
+        "value": "350ms",
+        "purpose": "Rest after a selection before the preview video loads; the still shows until then."
+      },
+      {
+        "name": "video-fade",
+        "value": "200ms",
+        "purpose": "The preview video fading in over its still once playing."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "Drop the scale and transitions, keep the ring, show the still instead of video."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tv-canvas",
+        "value": "1920px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "System Tile",
+      "kind": "nav",
+      "refersTo": "system-tile",
+      "description": "One slab per system in a mosaic weighted by game count; only the current system is oxblood with the slot-split sun risen off its top and right edges; focus adds the ring and a 1.03 scale about the centre.",
+      "html": "<nav class=\"ds-mosaic\"><button class=\"ds-tile ds-large ds-current\" style=\"left:0px;top:0px;width:248px;height:300px;--d:136px\"><span class=\"ds-sun\"></span><span class=\"ds-name\">SNES</span><span class=\"ds-count\"><span class=\"ds-mono\">10</span> games</span></button><button class=\"ds-tile ds-large\" style=\"left:264px;top:0px;width:224px;height:300px;--d:123px\"><span class=\"ds-sun\"></span><span class=\"ds-name\">PS1</span><span class=\"ds-count\"><span class=\"ds-mono\">10</span> games</span></button><button class=\"ds-tile\" style=\"left:0px;top:316px;width:236px;height:164px;--d:102px\"><span class=\"ds-sun\"></span><span class=\"ds-name\">N64</span><span class=\"ds-count\"><span class=\"ds-mono\">5</span> games</span></button><button class=\"ds-tile\" style=\"left:252px;top:316px;width:236px;height:164px;--d:102px\"><span class=\"ds-sun\"></span><span class=\"ds-name\">PCE</span><span class=\"ds-count\"><span class=\"ds-mono\">4</span> games</span></button></nav>",
+      "css": ".ds-mosaic{position:relative;width:488px;height:480px;margin:24px;background:#120c0b}.ds-tile{position:absolute;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;gap:4px;padding:16px 24px;border:0;border-radius:0;background:#1c1413;color:#f6ece1;text-align:left;cursor:pointer;transition:transform 120ms cubic-bezier(0.16, 1, 0.3, 1),box-shadow 120ms cubic-bezier(0.16, 1, 0.3, 1),background-color 160ms cubic-bezier(0.16, 1, 0.3, 1);font-family:Outfit,'Segoe UI',system-ui,sans-serif;}.ds-name{position:relative;z-index:1;font-weight:800;font-size:28px;line-height:32px;letter-spacing:-.01em;white-space:nowrap}.ds-large .ds-name{font-size:44px;line-height:48px}.ds-count{position:relative;z-index:1;font-weight:500;font-size:16px;line-height:22px;letter-spacing:.02em;color:#bfa898;white-space:nowrap}.ds-count .ds-mono{font-family:'JetBrains Mono',ui-monospace,'Cascadia Mono',Menlo,monospace;font-variant-numeric:tabular-nums;font-size:18px;letter-spacing:0}.ds-sun{position:absolute;width:var(--d);aspect-ratio:1;right:calc(var(--d) * -0.16);top:calc(100% + 8px);border-radius:9999px;background:linear-gradient(to bottom,#aa2b1d 0 20%,#df3c23 20% 40%,#fc6820 40% 60%,#fea517 60% 80%,#fdc459 80% 100%);transition:top 220ms cubic-bezier(0.16, 1, 0.3, 1)}.ds-sun::after{content:'';position:absolute;top:0;bottom:0;left:50%;width:8px;margin-left:-4px;background:#961e1e}.ds-current{background:#961e1e;color:#fdf3e6}.ds-current .ds-count{color:#fdf3e6}.ds-current .ds-sun{top:calc(var(--d) * -0.1)}.ds-tile:hover,.ds-tile:focus-visible{outline:none;box-shadow:0 0 0 3px #120c0b,0 0 0 7px #fea517;transform:scale(1.03);z-index:2}@media (prefers-reduced-motion:reduce){.ds-tile,.ds-sun{transition:none}.ds-tile:hover,.ds-tile:focus-visible{transform:none}}"
+    },
+    {
+      "name": "Game Row",
+      "kind": "card",
+      "refersTo": "game-row",
+      "description": "A 372 x 92 row straight on the ground in a 400px column: a 54 x 72 palette placeholder thumbnail with a 1px Die Edge edge, the title, a mono year and genre; the selected row steps up to Raised Ash; a 4px scroll track and an \"N of M\" line with mono numerals.",
+      "html": "<section class=\"ds-games\"><div class=\"ds-window\"><ul class=\"ds-list\"><li><button class=\"ds-gamerow ds-selected\"><span class=\"ds-art ds-art-a\"><i></i></span><span class=\"ds-text\"><span class=\"ds-title\">Brass Orchard</span><span class=\"ds-sub\"><span class=\"ds-mono\">1995</span><span class=\"ds-sep\">&middot;</span>Puzzle</span></span></button></li><li><button class=\"ds-gamerow\"><span class=\"ds-art ds-art-b\"><i></i></span><span class=\"ds-text\"><span class=\"ds-title\">Cinder Knights</span><span class=\"ds-sub\"><span class=\"ds-mono\">1992</span><span class=\"ds-sep\">&middot;</span>Beat &rsquo;em up</span></span></button></li><li><button class=\"ds-gamerow\"><span class=\"ds-art ds-art-c\"><i></i></span><span class=\"ds-text\"><span class=\"ds-title\">Lantern Drift</span><span class=\"ds-sub\"><span class=\"ds-mono\">1994</span><span class=\"ds-sep\">&middot;</span>Adventure</span></span></button></li></ul><div class=\"ds-track\"><span class=\"ds-thumbbar\"></span></div></div><p class=\"ds-position\"><span class=\"ds-mono\">1</span> of <span class=\"ds-mono\">10</span></p></section>",
+      "css": ".ds-games{width:400px;box-sizing:content-box;padding:24px;background:#120c0b;color:#bfa898;font-family:Outfit,'Segoe UI',system-ui,sans-serif;}.ds-window{position:relative}.ds-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}.ds-gamerow{display:flex;align-items:center;gap:24px;width:372px;height:92px;padding:8px;border:0;border-radius:0;background:transparent;color:#bfa898;text-align:left;cursor:pointer;transform-origin:left center;transition:transform 120ms cubic-bezier(0.16, 1, 0.3, 1),box-shadow 120ms cubic-bezier(0.16, 1, 0.3, 1),background-color 120ms cubic-bezier(0.16, 1, 0.3, 1);font-family:Outfit,'Segoe UI',system-ui,sans-serif;}.ds-art{position:relative;display:block;flex:none;width:54px;height:72px;overflow:hidden}.ds-art::after{content:'';position:absolute;inset:0;box-shadow:inset 0 0 0 1px #8a6b60;pointer-events:none}.ds-art i{position:absolute;display:block}.ds-art-a{background:#f6ece1}.ds-art-a i{width:62%;aspect-ratio:1;left:19%;top:24%;border-radius:9999px;background:#120c0b}.ds-art-b{background:#4a3632}.ds-art-b i{left:0;right:0;bottom:0;height:38%;background:#f6ece1}.ds-art-c{background:#bfa898}.ds-art-c i{width:42%;aspect-ratio:1;right:12%;top:10%;border-radius:9999px;background:#2a1e1c}.ds-text{display:flex;flex-direction:column;gap:4px;min-width:0}.ds-title{font-weight:600;font-size:20px;line-height:24px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ds-sub{font-weight:500;font-size:16px;line-height:22px;letter-spacing:.02em}.ds-mono{font-family:'JetBrains Mono',ui-monospace,'Cascadia Mono',Menlo,monospace;font-variant-numeric:tabular-nums;letter-spacing:0}.ds-sep{margin:0 .5em}.ds-selected{background:#2a1e1c;color:#f6ece1}.ds-gamerow:hover,.ds-gamerow:focus-visible{outline:none;box-shadow:0 0 0 3px #120c0b,0 0 0 7px #fea517;transform:scale(1.03)}.ds-track{position:absolute;right:0;top:16px;bottom:16px;width:4px;background:#4a3632}.ds-thumbbar{position:absolute;left:0;top:0;width:100%;height:40%;background:#bfa898;transition:top 120ms cubic-bezier(0.16, 1, 0.3, 1)}.ds-position{margin:12px 0 0;font-weight:500;font-size:16px;line-height:22px;letter-spacing:.02em;color:#bfa898}@media (prefers-reduced-motion:reduce){.ds-gamerow,.ds-thumbbar{transition:none}.ds-gamerow:hover,.ds-gamerow:focus-visible{transform:none}}"
+    },
+    {
+      "name": "Game Preview",
+      "kind": "custom",
+      "refersTo": "preview-frame",
+      "description": "The 4:3 screen with its 1px Die Edge inset edge and Sample clip label, then the title, a meta line with a mono year, and a three-line description.",
+      "html": "<section class=\"ds-preview\"><div class=\"ds-screen\"><span class=\"ds-sample\">Sample clip</span></div><h2 class=\"ds-ptitle\">Lantern Drift</h2><p class=\"ds-meta\"><span class=\"ds-mono\">1994</span> &middot; Adventure &middot; 1 player &middot; Played <span class=\"ds-mono\">3h 12m</span></p><p class=\"ds-desc\">A lighthouse keeper rows between islands at night, relighting the coast one lamp at a time. Each island hides a keeper&rsquo;s log, and together they explain why the lights went out.</p></section>",
+      "css": ".ds-preview{width:776px;padding:24px;background:#120c0b;color:#f6ece1;font-family:Outfit,'Segoe UI',system-ui,sans-serif;}.ds-screen{position:relative;width:100%;aspect-ratio:4/3;background:#1c1413}.ds-screen::after{content:'';position:absolute;inset:0;box-shadow:inset 0 0 0 1px #8a6b60;pointer-events:none}.ds-sample{position:absolute;left:16px;top:16px;height:30px;display:inline-flex;align-items:center;padding:0 8px;border-radius:0;background:#120c0b;box-shadow:inset 0 0 0 1.5px #8a6b60;color:#bfa898;font-size:16px;font-weight:500;letter-spacing:.02em}.ds-ptitle{margin:32px 0 0;font-size:44px;line-height:48px;font-weight:700;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ds-meta{margin:8px 0 0;font-size:16px;line-height:22px;font-weight:500;letter-spacing:.02em;color:#bfa898}.ds-meta .ds-mono{font-family:'JetBrains Mono',ui-monospace,'Cascadia Mono',Menlo,monospace;font-variant-numeric:tabular-nums;letter-spacing:0}.ds-desc{margin:16px 0 0;max-width:62ch;font-size:22px;line-height:32px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}"
+    },
+    {
+      "name": "Hint Bar",
+      "kind": "nav",
+      "refersTo": "hint-key",
+      "description": "Every action names its input: square key slabs for keyboard keys and shoulder buttons, discs for pad face buttons and the d-pad; confirm is accent-filled.",
+      "html": "<div class=\"ds-hints\"><span class=\"ds-hint\"><span class=\"ds-key\">Arrows</span>Move</span><span class=\"ds-hint\"><span class=\"ds-key ds-confirm\">Enter</span>Play</span><span class=\"ds-hint\"><span class=\"ds-key\">Esc</span>Systems</span><span class=\"ds-hint\"><span class=\"ds-disc\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M7 1h6v6h6v6h-6v6H7v-6H1V7h6z\" fill=\"currentColor\"/></svg></span>Move</span><span class=\"ds-hint\"><span class=\"ds-disc ds-confirm\">A</span>Play</span><span class=\"ds-hint ds-end\"><span class=\"ds-key\">LB</span><span class=\"ds-key\">RB</span>Change system</span></div>",
+      "css": ".ds-hints{display:flex;flex-wrap:wrap;align-items:center;gap:32px;padding:24px;background:#120c0b}.ds-hint{display:inline-flex;align-items:center;gap:12px;color:#f6ece1;font-weight:600;font-size:20px;line-height:24px;letter-spacing:.01em;font-family:Outfit,'Segoe UI',system-ui,sans-serif;}.ds-end{margin-left:auto}.ds-disc,.ds-key{display:inline-flex;align-items:center;justify-content:center;height:36px;flex:none;background:#2a1e1c;color:#f6ece1;box-shadow:inset 0 0 0 2px #8a6b60;font-weight:700;line-height:1}.ds-disc{width:36px;border-radius:9999px;font-size:18px}.ds-key{min-width:36px;padding:0 12px;border-radius:0;font-size:16px;letter-spacing:.02em}.ds-confirm{background:#fc6820;color:#120c0b;box-shadow:none}"
+    },
+    {
+      "name": "Launch Overlay",
+      "kind": "custom",
+      "refersTo": "launch-sheet",
+      "description": "Night Scrim with a centred solid 720px Raised Ash plate: the full sun rising, the title, the file name in mono, one plain line of Body. A stub in this build.",
+      "html": "<div class=\"ds-overlay\"><div class=\"ds-sheet\"><span class=\"ds-bigsun\"></span><h2 class=\"ds-ltitle\">Lantern Drift</h2><p class=\"ds-file\">lantern-drift (USA).sfc</p><p class=\"ds-lbody\">Launching games isn&rsquo;t connected in this build. Obol doesn&rsquo;t start an emulator yet.</p></div></div>",
+      "css": ".ds-overlay{display:grid;place-items:center;padding:48px;background:#120c0bd9;color:#f6ece1;font-family:Outfit,'Segoe UI',system-ui,sans-serif;}.ds-sheet{display:flex;flex-direction:column;align-items:center;width:720px;max-width:100%;padding:48px;border-radius:0;background:#2a1e1c;text-align:center}.ds-bigsun{display:block;width:160px;aspect-ratio:1;border-radius:9999px;background:linear-gradient(to bottom,#aa2b1d 0 20%,#df3c23 20% 40%,#fc6820 40% 60%,#fea517 60% 80%,#fdc459 80% 100%);animation:ds-rise 220ms cubic-bezier(0.16, 1, 0.3, 1) both}.ds-ltitle{margin:48px 0 0;font-size:44px;line-height:48px;font-weight:700;letter-spacing:-.01em}.ds-file{margin:12px 0 0;font-family:'JetBrains Mono',ui-monospace,'Cascadia Mono',Menlo,monospace;font-variant-numeric:tabular-nums;font-size:18px;line-height:24px;font-weight:500;color:#bfa898}.ds-lbody{margin:32px 0 0;font-size:22px;line-height:32px;color:#f6ece1;text-wrap:balance}@keyframes ds-rise{from{transform:translateY(48px);opacity:0}}@media (prefers-reduced-motion:reduce){.ds-bigsun{animation:none}}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one confirm action per screen or dialog; focus adds the gold ring and a 1.03 scale. Not on the home screen yet.",
+      "html": "<button class=\"ds-btn-primary\"><span class=\"ds-glyph-sm\">A</span>Play</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:12px;min-height:56px;padding:0 24px;border:0;border-radius:0;background:#fc6820;color:#120c0b;font-family:Outfit,'Segoe UI',system-ui,sans-serif;font-weight:600;font-size:20px;line-height:24px;letter-spacing:.01em;cursor:pointer;transition:transform 120ms cubic-bezier(0.16, 1, 0.3, 1),box-shadow 120ms cubic-bezier(0.16, 1, 0.3, 1)}.ds-btn-primary:hover,.ds-btn-primary:focus-visible{outline:none;box-shadow:0 0 0 3px #120c0b,0 0 0 7px #fea517;transform:scale(1.03)}.ds-btn-primary .ds-glyph-sm{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:9999px;background:#120c0b;color:#fc6820;font-weight:700;font-size:16px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Every other action: transparent with a Die Edge inset stroke.",
+      "html": "<button class=\"ds-btn-secondary\">Load state</button>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;min-height:56px;padding:0 24px;border:0;border-radius:0;background:transparent;color:#f6ece1;box-shadow:inset 0 0 0 2px #8a6b60;font-family:Outfit,'Segoe UI',system-ui,sans-serif;font-weight:600;font-size:20px;line-height:24px;letter-spacing:.01em;cursor:pointer;transition:transform 120ms cubic-bezier(0.16, 1, 0.3, 1),box-shadow 120ms cubic-bezier(0.16, 1, 0.3, 1)}.ds-btn-secondary:hover,.ds-btn-secondary:focus-visible{outline:none;box-shadow:0 0 0 3px #120c0b,0 0 0 7px #fea517;transform:scale(1.03)}.ds-btn-secondary:disabled{opacity:.45}"
+    },
+    {
+      "name": "Badge",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "Status and mark chips at 4px corners; words in Outfit caption; status always carries a word and a mark. Not on the home screen yet.",
+      "html": "<span class=\"ds-badge\">USA</span> <span class=\"ds-badge ds-badge-ok\">&#10003; Verified</span> <span class=\"ds-badge ds-badge-danger\">! BIOS missing</span>",
+      "css": ".ds-badge{display:inline-flex;align-items:center;gap:4px;height:30px;padding:0 8px;border-radius:4px;box-shadow:inset 0 0 0 1.5px #8a6b60;color:#bfa898;background:#120c0b;font-family:Outfit,'Segoe UI',system-ui,sans-serif;font-weight:500;font-size:16px;line-height:1;letter-spacing:.02em}.ds-badge-ok{color:#6cc7e0;box-shadow:inset 0 0 0 1.5px #6cc7e0}.ds-badge-danger{color:#ff8a7a;box-shadow:inset 0 0 0 1.5px #ff8a7a}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Coin for Passage",
+    "overview": "An obol was the small coin paid for passage across the river. Obol's interface is that coin: a small, heavy, well-made object that gets a person across to the game and asks for nothing else. It is struck, not drawn. Every form is either a square-cut slab or a perfect disc, taken directly from the wordmark's stems and bowls, and the one ornament the system allows is the logo's sun: five hard-edged bands from deep red to gold.\n\nThe mood is warm, heavy and quiet. The screen is a dark, warm near-black seen from the couch on a TV, and the chrome stays down in that dark so the games carry the colour: box art and a moving picture of the highlighted game. Weight comes from Outfit at 700 to 800 and from solid fills, not from noise. Components are refined and restrained: flat at rest, edged rather than boxed, and lit only when they hold focus. Depth is tonal, never shadowed.\n\nDensity is low and deliberate, sized for 1920 x 1080 at ten feet. At any moment exactly one element holds focus, and it is the most obviously lit thing on screen: a gold ring and a slight 1.03 rise. Everything else stays still, except the preview, which plays the highlighted game once the selection rests.",
+    "keyCharacteristics": [
+      "Dark-first (Banked Ash ground), with a light theme for handheld and desktop use.",
+      "Two shapes only: square-cut slabs (0px) and full discs (9999px).",
+      "The striped sun is the signature; its five bands always appear together, in order.",
+      "Focus is a ring plus a gentle scale; nothing casts a shadow.",
+      "Type sized for the couch: nothing below 16px.",
+      "The game is the hero: systems sit in a mosaic weighted by game count, and the highlighted game gets the largest single area on screen."
+    ],
+    "rules": [
+      {
+        "name": "The Struck Once Rule",
+        "body": "Struck Oxblood is a fill, never body text on a dark ground. If it needs to read as words, it is the wrong colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gilt Rule",
+        "body": "In the dark theme Gilt Gold means focus and only focus. Outside the ring it appears only as band 4 inside the complete sun, so the eye always finds where it is.",
+        "section": "colors"
+      },
+      {
+        "name": "The Five Bands Rule",
+        "body": "The sun bands appear together, in order 1 to 5, top to bottom, hard-edged. Never reorder, never blend, never use a single band as text or fill.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Current Rule",
+        "body": "On the home screen, Struck Oxblood and the sun mark the current system; apart from text selection, no other tile, thumbnail or fill is oxblood. Placeholder art and every other tile stay in ash and bone, so the current system is the only red on the screen.",
+        "section": "colors"
+      },
+      {
+        "name": "The Couch Floor Rule",
+        "body": "Nothing is set below 16px. If it does not fit at 16px, cut words.",
+        "section": "typography"
+      },
+      {
+        "name": "The Honest Mono Rule",
+        "body": "JetBrains Mono is for numbers and file names a person might compare or type, and for the clock. Words beside a number stay in Outfit: in \"10 games\", \"Played 3h 12m\" and \"1 of 10\" only the numerals are mono, and a year is always mono. Never for flavour.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tonal Step Rule",
+        "body": "To lift something, move it one tonal step up (ground, panel, raised). Never add a shadow, and never place Raised Ash straight on Banked Ash across a large area; step through Ash Panel. The one exception is a dialog plate over Night Scrim, where the scrim is the step.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Slab or Disc Rule",
+        "body": "Every shape is a 0px slab or a 9999px disc. A medium radius is never the answer.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** keep every focusable element at least 56px tall and every readable thing inside the 96px / 54px safe area.",
+      "**Do** mark focus with the ring (3px ground gap, 4px Gilt Gold or Struck Oxblood) plus a 1.03 scale, and nothing more.",
+      "**Do** keep the current system oxblood and the selected game on Raised Ash when focus moves to the other column, so the ring shows where you are and the fills show what you picked.",
+      "**Do** build depth from Banked Ash, Ash Panel and Raised Ash alone.",
+      "**Do** use the five sun bands together, in order, hard-edged.",
+      "**Do** pair every status colour with a word and a mark.",
+      "**Do** label stand-in media (\"Sample clip\") and keep placeholder art to bone, ash and die-edge tones, so nothing synthetic passes for real.",
+      "**Do** show square-cut slabs for keyboard keys and shoulder buttons, and discs only for pad face buttons and the d-pad, following the last-used device.",
+      "**Do** drop the scale (keep the ring), stop transitions, and show the clip's still instead of video when reduced motion is requested.",
+      "**Do** size system tiles by game count and keep the mosaic's seams shared, so the tiles read as one struck block."
+    ],
+    "donts": [
+      "**Don't** add shadows, glows or lift to any element, focused or not.",
+      "**Don't** use any corner radius other than 0px, 4px (badges) or 9999px (discs).",
+      "**Don't** set Struck Oxblood as text on a dark ground, or put the oxblood logo on a dark ground; use the reversed logo.",
+      "**Don't** use Gilt Gold for anything but focus in the dark theme, outside its place as band 4 of the complete sun.",
+      "**Don't** put Struck Oxblood, the sun or Gilt Gold in placeholder art.",
+      "**Don't** set anything below 16px, or use JetBrains Mono for words; only numerals, the clock and file names.",
+      "**Don't** blend, reorder or isolate the sun bands, or fade between them.",
+      "**Don't** start a preview video before the selection has rested for 350ms."
+    ]
+  }
+}

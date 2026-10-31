@@ -1,0 +1,68 @@
+/* Obol tokens, mirrored from the Obol design system (tokens.json). Dark is the TV default. */
+
+:root,
+[data-theme="dark"] {
+  --ground: #120c0b;
+  --surface: #1c1413;
+  --surface-raised: #2a1e1c;
+  --line: #4a3632;
+  --line-strong: #8a6b60;
+  --ink: #f6ece1;
+  --ink-muted: #bfa898;
+  --oxblood: #961e1e;
+  --on-oxblood: #fdf3e6;
+  --accent: #fc6820;
+  --on-accent: #120c0b;
+  --focus: #fea517;
+  --sunset-1: #aa2b1d;
+  --sunset-2: #df3c23;
+  --sunset-3: #fc6820;
+  --sunset-4: #fea517;
+  --sunset-5: #fdc459;
+  --ok: #6cc7e0;
+  --danger: #ff8a7a;
+  --scrim: #120c0bd9;
+  --focus-ring: 0 0 0 3px #120c0b, 0 0 0 7px #fea517;
+}
+
+[data-theme="light"] {
+  --ground: #f6efe6;
+  --surface: #fffaf3;
+  --surface-raised: #ffffff;
+  --line: #d9c7b6;
+  --line-strong: #8f776a;
+  --ink: #2a1513;
+  --ink-muted: #6e5850;
+  --accent: #961e1e;
+  --on-accent: #fdf3e6;
+  --focus: #961e1e;
+  --ok: #0f6a85;
+  --danger: #b3261e;
+  --scrim: #2a151399;
+  --focus-ring: 0 0 0 3px #f6efe6, 0 0 0 7px #961e1e;
+}
+
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --safe-x: 96px;
+  --safe-y: 54px;
+
+  --radius-none: 0px;
+  --radius-sm: 4px;
+  --radius-full: 9999px;
+
+  --target-min: 56px;
+  --glyph: 36px;
+  --slot: 8px;
+
+  --font-sans: "Outfit", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Menlo, monospace;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}

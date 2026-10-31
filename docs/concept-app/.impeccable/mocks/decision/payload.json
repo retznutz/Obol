@@ -1,0 +1,52 @@
+{
+  "title": "Home screen structure",
+  "question": "Systems lead the home screen. Choose how they are arranged.",
+  "options": [
+    {
+      "id": "timeline",
+      "kind": "assigned",
+      "label": "Era line",
+      "kicker": "THE ROLL",
+      "lineage": "A museum's chronological gallery wall",
+      "thesis": "Systems stand on a line of release years; moving focus walks through gaming history.",
+      "palette": ["#120c0b", "#961e1e", "#fc6820", "#fea517", "#f6ece1"],
+      "materials": ["system cards on a year axis", "focused system's games below"],
+      "viewport": "Top two-thirds: system cards placed along a 1977 to 2006 year line, the focused one oxblood with its sun up. Bottom: that system's recent and favourite games as a tile row. Hint bar on the bottom safe edge.",
+      "risk": "Guests who don't know release years may hunt longer for a system than in a plain row.",
+      "html": ".impeccable/mocks/decision/timeline.html",
+      "htmlFrame": "1920x1080",
+      "comp": ".impeccable/mocks/decision/timeline.png"
+    },
+    {
+      "id": "mosaic",
+      "kind": "dealt",
+      "label": "Library mosaic",
+      "lineage": "A record shop's crate wall, sized by stock",
+      "thesis": "Every system on one screen at once, each tile sized by how many games it holds.",
+      "palette": ["#120c0b", "#961e1e", "#fc6820", "#fea517", "#f6ece1"],
+      "materials": ["square-cut tiles on a weighted grid", "game counts in mono"],
+      "viewport": "The whole safe area is a mosaic of system tiles: big for large libraries, small for a handful. The focused tile turns oxblood with its sun; a strip on the right previews its three most recent games.",
+      "risk": "Breaks the fixed 400 x 225 system card into several sizes; small systems get small targets.",
+      "html": ".impeccable/mocks/decision/mosaic.html",
+      "htmlFrame": "1920x1080",
+      "comp": ".impeccable/mocks/decision/mosaic.png"
+    },
+    {
+      "id": "rows",
+      "kind": "dealt",
+      "label": "System row and shelves",
+      "lineage": "A TV streaming home screen",
+      "thesis": "A row of system cards on top, then shelves of games underneath: recently played, favourites, new additions.",
+      "palette": ["#120c0b", "#961e1e", "#fc6820", "#fea517", "#f6ece1"],
+      "materials": ["SystemCard row", "GameTile shelves"],
+      "viewport": "Header with the reversed logo and clock; the system card row first with SNES focused; Recently played and Favourites shelves below; hint bar at the bottom.",
+      "risk": "The most familiar arrangement; Obol's character rests on the cards and the sun alone.",
+      "html": ".impeccable/mocks/decision/rows.html",
+      "htmlFrame": "1920x1080",
+      "comp": ".impeccable/mocks/decision/rows.png"
+    }
+  ],
+  "reroll": true,
+  "buildPath": { "value": "code", "toggle": true },
+  "steer": true
+}

@@ -1,0 +1,15 @@
+{
+  "buildPath": "comp",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "mono\",monospace",
+        "createdAt": "2026-10-31T17:59:00.568Z",
+        "reason": "Claude: parse fragment of the font shorthand \"JetBrains Mono\", monospace; JetBrains Mono is declared in DESIGN.md typography.data"
+      }
+    ]
+  }
+}

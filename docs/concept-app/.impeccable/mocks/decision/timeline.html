@@ -1,0 +1,79 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Obol home: era line</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  body { width: 1920px; height: 1080px; overflow: hidden; background: #120c0b; color: #f6ece1; font-family: Outfit, sans-serif; position: relative; }
+  .mono { font-family: "JetBrains Mono", monospace; }
+  .top { position: absolute; left: 96px; right: 96px; top: 54px; display: flex; justify-content: space-between; align-items: flex-start; }
+  .display { font-size: 72px; line-height: 72px; font-weight: 800; letter-spacing: -.02em; }
+  .meta { margin-top: 14px; font-size: 18px; color: #bfa898; }
+  .clock { font-size: 20px; color: #bfa898; display: flex; gap: 20px; align-items: center; }
+  .sun { width: 40px; height: 40px; border-radius: 9999px; background: linear-gradient(#aa2b1d 0 20%, #df3c23 20% 40%, #fc6820 40% 60%, #fea517 60% 80%, #fdc459 80%); }
+  .cards { position: absolute; top: 236px; left: 96px; display: flex; gap: 24px; }
+  .card { position: relative; overflow: hidden; width: 400px; height: 225px; padding: 32px; background: #2a1e1c; display: flex; flex-direction: column; justify-content: flex-end; gap: 8px; flex: none; }
+  .card.era { margin-left: 72px; }
+  .card b { position: relative; z-index: 1; font-size: 56px; line-height: 56px; font-weight: 800; letter-spacing: -.02em; }
+  .card span { position: relative; z-index: 1; font: 500 18px/24px "JetBrains Mono", monospace; color: #bfa898; }
+  .card.on { background: #961e1e; color: #fdf3e6; box-shadow: 0 0 0 3px #120c0b, 0 0 0 7px #fea517; transform: scale(1.03); }
+  .card.on span { color: #fdf3e6; }
+  .card .s { position: absolute; width: 152px; height: 152px; right: -24px; top: 28px; }
+  .card .s::after { content: ""; position: absolute; top: 0; bottom: 0; left: 72px; width: 8px; background: #961e1e; }
+  .axis { position: absolute; top: 488px; left: 0; right: 0; height: 2px; background: #4a3632; }
+  .ticks { position: absolute; top: 478px; left: 96px; display: flex; gap: 24px; }
+  .tick { width: 400px; flex: none; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .tick.era { margin-left: 72px; }
+  .tick i { width: 22px; height: 22px; border-radius: 9999px; background: #8a6b60; display: block; }
+  .tick.on i { background: #fea517; }
+  .tick em { font: normal 500 18px "JetBrains Mono", monospace; color: #bfa898; }
+  .tick.on em { color: #f6ece1; }
+  .decade { position: absolute; top: 444px; font: 600 16px Outfit; letter-spacing: .02em; color: #bfa898; }
+  .h { position: absolute; left: 96px; top: 596px; font-size: 28px; line-height: 34px; font-weight: 600; }
+  .tiles { position: absolute; left: 96px; top: 650px; display: flex; gap: 24px; }
+  .tile { width: 225px; background: #2a1e1c; flex: none; }
+  .art { height: 230px; position: relative; overflow: hidden; }
+  .tile p { padding: 12px 16px 14px; font-size: 20px; font-weight: 600; color: #bfa898; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .tile small { display: block; font-size: 16px; font-weight: 500; margin-top: 4px; }
+  .hints { position: absolute; left: 96px; right: 96px; bottom: 54px; display: flex; gap: 32px; align-items: center; font-size: 20px; font-weight: 600; }
+  .g { width: 36px; height: 36px; border-radius: 9999px; background: #2a1e1c; box-shadow: inset 0 0 0 2px #8a6b60; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; margin-right: 12px; vertical-align: middle; }
+  .g.c { background: #fc6820; color: #120c0b; box-shadow: none; }
+  .g.p { width: auto; padding: 0 12px; }
+</style></head>
+<body>
+  <div class="top">
+    <div><div class="display">Super Nintendo</div><div class="meta mono">1990 · 418 games · played yesterday</div></div>
+    <div class="clock"><span class="mono">8:42 PM</span><span class="sun"></span></div>
+  </div>
+
+  <div class="decade" style="left:96px">1980s</div>
+  <div class="decade" style="left:1792px">1990s</div>
+  <div class="axis"></div>
+  <div class="cards">
+    <div class="card"><b>PCE</b><span>64 games</span></div>
+    <div class="card"><b>MD</b><span>290 games</span></div>
+    <div class="card"><b>GB</b><span>187 games</span></div>
+    <div class="card era on"><div class="s" style="border-radius:9999px;background:linear-gradient(#aa2b1d 0 20%,#df3c23 20% 40%,#fc6820 40% 60%,#fea517 60% 80%,#fdc459 80%)"></div><b>SNES</b><span>418 games</span></div>
+  </div>
+  <div class="ticks">
+    <div class="tick"><i></i><em>1987</em></div>
+    <div class="tick"><i></i><em>1988</em></div>
+    <div class="tick"><i></i><em>1989</em></div>
+    <div class="tick era on"><i></i><em>1990</em></div>
+  </div>
+
+  <div class="h">Recently played on Super Nintendo</div>
+  <div class="tiles">
+    <div class="tile"><div class="art" style="background:#961e1e"><div style="position:absolute;width:140px;height:140px;left:42px;top:46px;border-radius:9999px;background:#fea517"></div></div><p>Lantern Drift<small>1994 · 3 h 12 m</small></p></div>
+    <div class="tile"><div class="art" style="background:#fdc459"><div style="position:absolute;left:0;right:0;bottom:0;height:90px;background:#120c0b"></div></div><p>Cobalt Run<small>1992 · 48 m</small></p></div>
+    <div class="tile"><div class="art" style="background:#1c1413"><div style="position:absolute;left:40px;width:40px;top:40px;bottom:0;background:#df3c23"></div></div><p>Mossback Keep<small>1993 · 7 h 05 m</small></p></div>
+    <div class="tile"><div class="art" style="background:#df3c23"><div style="position:absolute;width:180px;height:180px;left:-40px;bottom:-60px;border-radius:9999px;background:#120c0b"></div></div><p>Starling Circuit<small>1995 · 22 m</small></p></div>
+    <div class="tile"><div class="art" style="background:#aa2b1d"><div style="position:absolute;left:30px;right:30px;top:80px;height:24px;background:#fdc459"></div></div><p>Tidewater Tactics<small>1996 · 1 h 40 m</small></p></div>
+    <div class="tile"><div class="art" style="background:#2a1e1c"><div style="position:absolute;width:90px;height:90px;right:30px;top:30px;border-radius:9999px;background:#fc6820"></div></div><p>Paper Kite Rally<small>1991 · 15 m</small></p></div>
+    <div class="tile"><div class="art" style="background:#fc6820"></div><p>Hollow Bell<small>1993 · 2 h</small></p></div>
+  </div>
+
+  <div class="hints">
+    <span><span class="g c">A</span>Open</span><span><span class="g">B</span>Back</span><span><span class="g">X</span>Search</span>
+    <span style="margin-left:auto"><span class="g p">LB</span>Earlier<span class="g p" style="margin-left:12px">RB</span>Later</span>
+  </div>
+</body></html>

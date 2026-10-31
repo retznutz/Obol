@@ -1,0 +1,64 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Obol home: library mosaic</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  body { width: 1920px; height: 1080px; overflow: hidden; background: #120c0b; color: #f6ece1; font-family: Outfit, sans-serif; position: relative; }
+  .mono { font-family: "JetBrains Mono", monospace; }
+  .top { position: absolute; left: 96px; right: 96px; top: 54px; display: flex; justify-content: space-between; align-items: center; }
+  .top h1 { font-size: 28px; line-height: 34px; font-weight: 600; }
+  .top h1 span { color: #bfa898; font-weight: 500; font-size: 18px; margin-left: 16px; font-family: "JetBrains Mono", monospace; }
+  .clock { font-size: 20px; color: #bfa898; display: flex; gap: 20px; align-items: center; }
+  .sun { width: 40px; height: 40px; border-radius: 9999px; background: linear-gradient(#aa2b1d 0 20%, #df3c23 20% 40%, #fc6820 40% 60%, #fea517 60% 80%, #fdc459 80%); }
+  .grid { position: absolute; left: 96px; top: 132px; width: 1236px; height: 816px; display: grid; grid-template-columns: repeat(6, 1fr); grid-template-rows: repeat(4, 1fr); gap: 24px; }
+  .t { position: relative; overflow: hidden; background: #2a1e1c; padding: 24px; display: flex; flex-direction: column; justify-content: flex-end; gap: 6px; }
+  .t b { position: relative; z-index: 1; font-weight: 800; letter-spacing: -.02em; font-size: 40px; line-height: 40px; }
+  .t.big b { font-size: 72px; line-height: 72px; }
+  .t span { position: relative; z-index: 1; font: 500 18px/24px "JetBrains Mono", monospace; color: #bfa898; }
+  .t.on { background: #961e1e; color: #fdf3e6; box-shadow: 0 0 0 3px #120c0b, 0 0 0 7px #fea517; }
+  .t.on span { color: #fdf3e6; }
+  .t .s { position: absolute; width: 260px; height: 260px; right: -40px; top: 36px; border-radius: 9999px; background: linear-gradient(#aa2b1d 0 20%, #df3c23 20% 40%, #fc6820 40% 60%, #fea517 60% 80%, #fdc459 80%); }
+  .t .s::after { content: ""; position: absolute; top: 0; bottom: 0; left: 126px; width: 8px; background: #961e1e; }
+  .side { position: absolute; left: 1380px; right: 96px; top: 132px; bottom: 132px; background: #1c1413; padding: 32px; }
+  .side h2 { font-size: 44px; line-height: 48px; font-weight: 700; letter-spacing: -.01em; }
+  .side .meta { margin-top: 10px; font-size: 18px; color: #bfa898; }
+  .side h3 { margin-top: 40px; font-size: 20px; font-weight: 600; color: #bfa898; }
+  .row { display: flex; gap: 20px; align-items: center; margin-top: 20px; }
+  .thumb { width: 96px; height: 128px; flex: none; position: relative; overflow: hidden; }
+  .row p { font-size: 20px; font-weight: 600; }
+  .row small { display: block; margin-top: 6px; font-size: 16px; font-weight: 500; color: #bfa898; }
+  .hints { position: absolute; left: 96px; right: 96px; bottom: 54px; display: flex; gap: 32px; align-items: center; font-size: 20px; font-weight: 600; }
+  .g { width: 36px; height: 36px; border-radius: 9999px; background: #2a1e1c; box-shadow: inset 0 0 0 2px #8a6b60; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; margin-right: 12px; vertical-align: middle; }
+  .g.c { background: #fc6820; color: #120c0b; box-shadow: none; }
+</style></head>
+<body>
+  <div class="top">
+    <h1>Your library<span>9 systems · 1,912 games</span></h1>
+    <div class="clock"><span class="mono">8:42 PM</span><span class="sun"></span></div>
+  </div>
+
+  <div class="grid">
+    <div class="t big on" style="grid-column:1/4;grid-row:1/3"><div class="s"></div><b>SNES</b><span>418 games</span></div>
+    <div class="t big" style="grid-column:4/6;grid-row:1/3"><b>PS1</b><span>356 games</span></div>
+    <div class="t" style="grid-column:6/7;grid-row:1/2"><b>N64</b><span>96</span></div>
+    <div class="t" style="grid-column:6/7;grid-row:2/3"><b>PCE</b><span>64</span></div>
+    <div class="t" style="grid-column:1/3;grid-row:3/5"><b>MD</b><span>290 games</span></div>
+    <div class="t" style="grid-column:3/5;grid-row:3/4"><b>GBA</b><span>212 games</span></div>
+    <div class="t" style="grid-column:3/5;grid-row:4/5"><b>GB</b><span>187 games</span></div>
+    <div class="t" style="grid-column:5/7;grid-row:3/4"><b>NES</b><span>176 games</span></div>
+    <div class="t" style="grid-column:5/7;grid-row:4/5"><b>Arcade</b><span>113 games</span></div>
+  </div>
+
+  <div class="side">
+    <h2>Super Nintendo</h2>
+    <div class="meta mono">418 games · played yesterday</div>
+    <h3>Recently played</h3>
+    <div class="row"><div class="thumb" style="background:#961e1e"><div style="position:absolute;width:64px;height:64px;left:16px;top:32px;border-radius:9999px;background:#fea517"></div></div><p>Lantern Drift<small>3 h 12 m</small></p></div>
+    <div class="row"><div class="thumb" style="background:#fdc459"><div style="position:absolute;left:0;right:0;bottom:0;height:40px;background:#120c0b"></div></div><p>Cobalt Run<small>48 m</small></p></div>
+    <div class="row"><div class="thumb" style="background:#2a1e1c"><div style="position:absolute;left:20px;width:22px;top:20px;bottom:0;background:#df3c23"></div></div><p>Mossback Keep<small>7 h 05 m</small></p></div>
+  </div>
+
+  <div class="hints">
+    <span><span class="g c">A</span>Open</span><span><span class="g">B</span>Back</span><span><span class="g">Y</span>Recent</span><span><span class="g">X</span>Search</span>
+  </div>
+</body></html>
